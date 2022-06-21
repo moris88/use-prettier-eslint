@@ -66,6 +66,7 @@
 {
     ...
     "rules": {
+        "no-console": "warn",
         TODO
     }
 }
