@@ -60,7 +60,43 @@
 }
 ```
 
-## CONFIG ESLINT
+## CONFIG ESLINT RULES
+
+```json
+{
+    ...
+    "rules": {
+        TODO
+    }
+}
+```
+
+
+## CONFIG PRETTIER WITH ESLINT
+
+- install `npm i -D eslint-config-prettier eslint-plugin-prettier`
+- in .eslintrc add with command:
+
+```json
+{
+    ...
+    "extends": [
+        ...
+        "prettier"
+    ],
+    ...
+    "plugins": [
+        ...
+        "prettier"
+    ],
+    ...
+    "rules": {
+        ...
+        "prettier/prettier": 2
+    }
+    ...
+}
+```
 
 
 
