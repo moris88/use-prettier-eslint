@@ -18,6 +18,8 @@
 
 - add in package.json this command:
 
+```"prettier": "prettier --config .prettierrc \"src/**/*.ts\" --write"```
+
 ```json
 {
     ...
@@ -47,6 +49,8 @@
 ## NPM COMMAND ESLINT
 
 - add in package.json this command:
+
+```"lint": "eslint src --ext .js,.jsx,.ts,.tsx --ignore-pattern node_modules/"```
 
 ```json
 {
